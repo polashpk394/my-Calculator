@@ -1,0 +1,92 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    background: #03a9f4;
+}
+.calWrapper {
+    background: #ddd;
+    padding: 10px 5px;
+    width: 450px;
+}
+
+.calWrapper {
+    background: #ddd;
+    padding: 20px 10px;
+    width: 450px;
+    border-radius: 5px;
+    box-shadow: -6px 11px 19px 9px #4b4646;
+}
+
+.input {
+    height: 76px;
+    margin-bottom: 20px;
+}
+
+.input input {
+    width: 100%;
+    padding: 16px;
+    border-radius: 3px;
+    outline: none;
+    border: none;
+    height: 100%;
+}
+
+
+
+.MainCalc {
+    width: 100%;
+}
+
+.btn {
+    display: flex;
+    flex-direction: column;
+}
+
+.row {
+    display: flex;
+    gap: 5px;
+}
+
+.row input {
+    flex: 1;
+    font-size: 25px;
+    padding: 12px;
+    margin-bottom: 5px;
+    border: none;
+    border-radius: 3px;
+}
+
+.input {
+    height: 76px;
+    margin-bottom: 20px;
+}
+
+.row input:last-child {
+    background: red;
+    color: white;
+}
+
+.row.firstRow input {
+    background: red;
+    color: white;
+}
+.btns{
+    cursor: pointer;
+}
+
+.clear{
+    cursor: pointer;
+}
+.delate{
+    cursor: pointer;
+}
+.off{
+    cursor: pointer;
+}
